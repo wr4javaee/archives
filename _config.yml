@@ -10,7 +10,7 @@ description: 羽毛的博客
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-baseurl: /archives
+baseurl: /blog
 url: https://wr4javaee.github.io
 github_username:  wr4javaee
 permalink: /:year/:month/:day/:title/
