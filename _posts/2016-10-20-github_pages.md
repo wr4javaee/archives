@@ -60,7 +60,7 @@ https://github.com/join
 
 onepieceworld@qq.com&3377128016，protosssoul@qq.com&2027194199
 
-![](./images/blog_create/create_repository.png)
+![](/images/blog_create/create_repository.png)
 
 github为我们准备了两种搭建博客方式，一种是github提供模板，我们只需写md文档即可。另一种是从头搭建。
 
@@ -72,19 +72,19 @@ github为我们准备了两种搭建博客方式，一种是github提供模板�
 
 进入项目->settings->github pages->launch
 
-![](./images/blog_create/settings_lunch.png)
+![](/images/blog_create/settings_lunch.png)
 
 
 
 点击launch后，进入
 
-![](./images/blog_create/lunch_page1.png)
+![](/images/blog_create/lunch_page1.png)
 
 
 
 填写好项目名称、项目描述后，进入下一步，选择项目模板
 
-![](./images/blog_create/settings_theme.png)
+![](/images/blog_create/settings_theme.png)
 
 选择好模板后，点击 publish page即可提交。
 
@@ -98,7 +98,7 @@ github为我们准备了两种搭建博客方式，一种是github提供模板�
 
 若我们查看github模板为我们创建的博客，会发现github为我们自动创建了一个分支gh-pages作为默认分支，博客的文件都提交在这个特定的分支中。
 
-![](./images/blog_create/git_branch.png)
+![](/images/blog_create/git_branch.png)
 
 那么，若我们从头搭建博客，就得模仿这一步骤。github规定，只有该分支中的页面，才会生成静态网页文件。
 
@@ -246,7 +246,7 @@ Configuration file: /home/yumao/github/jekyll_test/_config.yml
 
 ```
 
-![](./images/blog_create/jekyll_default_page.png)
+![](/images/blog_create/jekyll_default_page.png)
 
 
 
@@ -259,7 +259,7 @@ Configuration file: /home/yumao/github/jekyll_test/_config.yml
 
 
 
-![](./images/blog_create/jekyll_files.png)
+![](/images/blog_create/jekyll_files.png)
 
 ```
 .
@@ -395,7 +395,7 @@ $ npm install
 
 建站后的文件目录如下：
 
-![](./images/blog_create/hexo_files.png)
+![](/images/blog_create/hexo_files.png)
 
 
 
@@ -558,13 +558,13 @@ $ hexo generate
 
 使用generate命令后，hexo的文件夹会自动生成静态文件，放置到配置文件中规定的public目录中
 
-![](./images/blog_create/hexo_files_after_generate_1.png)
+![](/images/blog_create/hexo_files_after_generate_1.png)
 
 
 
 public文件夹中的内容如下
 
-![](./images/blog_create/hexo_files_after_generate_2.png)
+![](/images/blog_create/hexo_files_after_generate_2.png)
 
 
 
@@ -589,7 +589,7 @@ $ hexo deploy
 
 
 部署后的界面如下
-![](./images/blog_create/hexo_server_page.png)
+![](/images/blog_create/hexo_server_page.png)
 
 
 
@@ -601,7 +601,7 @@ $ hexo clean
 
 清除缓存文件 (`db.json`) 和已生成的静态文件 (`public`)。
 
-![](./images/blog_create/hexo_clean.png)
+![](/images/blog_create/hexo_clean.png)
 
 
 
@@ -633,5 +633,5 @@ deploy:
 
 至此，hexo已成功将解析后的html文件上传到github中
 
-![](./images/blog_create/hexo_github.png)
+![](/images/blog_create/hexo_github.png)
 
